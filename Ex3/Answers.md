@@ -32,4 +32,5 @@ ECB cannot be used for very large plaintexts or very regular plaintext. This is 
 It is not a secure method of encryption because if the same block of plaintext appear more than once they will have the same ciphertext. An adversary can use this to their advantage to decrypt the message.
 
 ### Problem 2.6
+
 Because each bit is either 0 or 1 the minimum number of plaintexts needed to get every possible hash value is 2^16=65.536. Therefore, the minimum number of plaintexts needed to get the same hash value is 2^16+1=65.537.
