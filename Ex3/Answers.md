@@ -27,4 +27,5 @@ Collision resistant (or strong collision resistant) hash function: It is computa
 
 ### Problem 2.1
 
-Electronic Codebook is a mode in which the plaintext is handled b bits at a time. Each block is encrypted using the same key.
+Electronic Codebook is a mode in which the plaintext is handled b bits at a time. Each block is encrypted using the same key.  
+It is not a secure method of encryption because if the same block of plaintext appear more than once they will have the same ciphertext. An adversary can use this to their advantage to decrypt the message.
