@@ -33,4 +33,4 @@ It is not a secure method of encryption because if the same block of plaintext a
 
 ### Problem 2.6
 
-Because each bit is either 0 or 1 the minimum number of plaintexts needed to get every possible hash value is 2^16=65.536. Therefore, the minimum number of plaintexts needed to get the same hash value is 2^16+1=65.537.
+Because each bit is either 0 or 1 the minimum number of plaintexts needed to get every possible hash value is 2^16=65.536. Therefore, the number of plaintexts needed to get the same hash value is 2^16+1=65.537.
