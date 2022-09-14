@@ -4,11 +4,17 @@
 
 ### 2.1
 
-### 2.2
+Cryptanalysis use knowledge about the algorithms and perhaps about the general characteristics about the plaintext to deduce a specific plaintext or to deduce the key being used. Bruteforce attacks try all possible ways to decrypt a ciphertext.
 
-### 2.5
+## 2.2
 
-### 2.7
+Symmetric encryption algorithms can be attacked using cryptanalysis and bruteforce previously described.
+
+## 2.5
+
+A hash function is a function that given an input of any size produces a digest of fixed size. A one-way hash function, H, has the property that for any output h it is computationally infeasible to find x such that H(x)=h.
+
+## 2.7
 
 The hash function can be applied to a block of data of any size.  
 The hash function produces a fixed-length output.  
