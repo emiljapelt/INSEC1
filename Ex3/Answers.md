@@ -1,3 +1,13 @@
+# Review questions
+
+## 2.1
+
+## 2.2
+
+## 2.5
+
+## 2.7
+
 The hash function can be applied to a block of data of any size.  
 The hash function produces a fixed-length output.  
 The value of the hash function is relatively easy to compute for any input, making both hardware and software implementations practical.  
