@@ -1,4 +1,6 @@
-# Problem 4.5
+# Problems
+
+## Problem 4.5
 
 644 (octal) in binary is:
 110100100
@@ -18,3 +20,9 @@ All others can read.
 
 Because the group has write access they can create, rename, and delete.
 Because the group has execute access they can descend the directory and search for files.
+
+## Problems 4.8
+
+R1:can_be_provided(u, m, e) <-
+    (Age(u) > 35 && Finding(m) is RG) ||
+    (Age(u) <= 35 && Finding(m) is in {RG, TG})
